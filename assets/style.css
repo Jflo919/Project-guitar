@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+#site-name a {
+    text-decoration: none;
+    color:black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19), 6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+nav {
+    min-height: 15vmin;
+    max-width: 100vmax;
+    padding-top: 20px;
+    padding-left: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Media queries for smaller screens go below*/
