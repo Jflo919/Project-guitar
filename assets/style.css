@@ -30,8 +30,32 @@ nav {
     
 }
 
+#jumbo {
+    margin: 25px 25px 25px 25px; 
+    padding: 25px 25px 25px 25px;
+    height: 400px;
+    max-width: 100vmax;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
 
+#suz {
+    border:20px solid gray;
+    border-radius: 10%;
+}
+.quote {
+    font-style: italic;
+    font-size: 14px;
+    
+}
 
+#author {
+    text-align: center;
+    font-weight: bold;
+    
+}
 
 
 
