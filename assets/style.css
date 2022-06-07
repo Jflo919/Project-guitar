@@ -11,15 +11,23 @@ body {
 #site-name a {
     text-decoration: none;
     color:black;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19), 6px 6px 6px rgba(0, 0, 0, 0.23);
+   /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19), 6px 6px 6px rgba(0, 0, 0, 0.23); */
+    font-size: 29px;
 }
 
 nav {
-    min-height: 15vmin;
+    min-height: 10vmin;
     max-width: 100vmax;
     padding-top: 20px;
     padding-left: 8px;
-
+    border-bottom: solid black 1px;
+    /*background: linear-gradient(180deg, #0375B4, #FFCE00);*/
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.19), 6px 6px 6px rgba(0, 0, 0, 0.23);
+    
 }
 
 
