@@ -13,6 +13,7 @@ body {
     color:black;
    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19), 6px 6px 6px rgba(0, 0, 0, 0.23); */
     font-size: 29px;
+    background-color: aliceblue;
 }
 
 nav {
@@ -27,6 +28,8 @@ nav {
     justify-content: center;
     align-items: center;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.19), 6px 6px 6px rgba(0, 0, 0, 0.23);
+    background: url(./images/pexels-pixabay-235992.jpg);
+    background-size: cover;
     
 }
 
