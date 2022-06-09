@@ -19,12 +19,55 @@
         </nav>
         </header>
         <main>
+            <!-- Slideshow container -->
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="slides fade">
+                    <div class="number-text">1 / 4</div>
+                    <img>
+                    <div class="slide-text">Caption this later</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="number-text">2 / 4</div>
+                    <img>
+                    <div class="slide-text">Caption this later</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="number-text">3 / 4</div>
+                    <img>
+                    <div class="slide-text">Caption this later</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="number-text">4 / 4</div>
+                    <img>
+                    <div class="slide-text">Caption this later</div>
+                </div>
+
+                <!--Next and previous buttons-->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The circles/dots -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+
             <div id="jumbotron-wrapper">
             <img id="jumbotron" src="./assets/images/Grady Website 4 star 7.jpg" alt="Grady instructing a student" height="670px" width="1000px"/>
             </div>
             <section id="about">
                 <h2>About Grady</h2>
-                <img id="grady" src="" alt="Portrait of Grady."/>
+                <img id="grady" src="./assets/images/IMG_2552.JPG" alt="Portrait of Grady."/>
                 <br/>
                 <p>I've been instructing children and adults of all ages since 1991. I hold a Bachelor of Music degree from
                    California State University, Northridge where I studied with Ronald C. Purcell and a Master of Music degree from the San Francisco
