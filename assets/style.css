@@ -120,16 +120,28 @@ nav {
     to {opacity: 1}
 }
 
-/*#jumbotron-wrapper {
-    height: 700px;
-    max-width: 100vmax;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+/*Call to action*/
+#call-to-action {
+    padding-top: 10px;
+    
 }
 
-#jumbotron {}
-*/
+#call-to-action ul li {
+    padding: 5px 0 5px 0;
+}
+
+#call-to-action ul li a {
+    text-decoration: none;
+    color:black;
+    padding: 5px 0 5px 0;
+    font-size: 20px;
+}
+#call-to-action ul li a:hover {
+    background-color: #717171;
+    cursor: pointer;
+    color: white;
+}
+
 #jumbo {
     margin: 25px 25px 25px 25px; 
     padding: 25px 25px 25px 25px;
