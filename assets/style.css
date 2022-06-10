@@ -204,6 +204,7 @@ h3 a {
     text-decoration: none;
     color:black;
     font-size: 29px;
+    background: white;
 }
 footer {
     min-height: 10vmin;
@@ -211,23 +212,32 @@ footer {
     padding-top: 20px;
     padding-left: 8px;
     border-bottom: solid black .5px;
-    /*background: linear-gradient(180deg, #0375B4, #FFCE00);*/
     opacity: .9;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(./images/pexels-pixabay-235992.jpg);
+    background-size: cover;
      
 }
 
 footer ul li {
     list-style: none;
+    
 }
 
 footer ul li a {
     text-decoration: none;
     color: black;
     font-size: 20px;
+    background: white;
+    
 }
 
+footer ul li a:hover {
+    cursor: pointer;
+    color:white;
+    background-color: #717171;
+}
 
 /*Media queries for smaller screens go below*/
