@@ -1,4 +1,5 @@
-
+// timer variable
+var timer;
 
 // click through slides
 
@@ -29,4 +30,8 @@ function showSlides(n) {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
+
+    // automatic controls
+    clearTimeout(timer);
+    timer = setTimeout(() => plusSlides(1), 4000);
 }
