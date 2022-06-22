@@ -13,7 +13,7 @@ body {
     color:black;
    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19), 6px 6px 6px rgba(0, 0, 0, 0.23); */
     font-size: 35px;
-    background-color: aliceblue;
+    
 }
 
 nav {
@@ -28,8 +28,8 @@ nav {
     justify-content: center;
     align-items: center;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.19), 6px 6px 6px rgba(0, 0, 0, 0.23);
-    background: url(./images/pexels-pixabay-235992.jpg);
-    background-size: cover;
+    background-color: rgba(0, 255, 42, 0.3);
+    
     
 }
 
@@ -161,9 +161,7 @@ main {
     justify-content: center;
     align-items: center;
 }
-.one {
-    
-}
+
 .two {
     
     font-size: 18px;
@@ -212,11 +210,12 @@ h3 a {
     text-decoration: none;
     color:black;
     font-size: 29px;
-    background: white;
+    
 }
 footer {
     min-height: 10vmin;
     max-width: 100vmax;
+    margin-top: 10px;
     padding-top: 20px;
     padding-left: 8px;
     border-bottom: solid black .5px;
@@ -224,9 +223,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(./images/pexels-pixabay-235992.jpg);
-    background-size: cover;
-     
+    background-color: rgba(0, 255, 42, 0.3);
+    box-shadow: 10px -5px 5px rgba(0, 0, 0, 0.19), 6px -6px 6px rgba(0, 0, 0, 0.23);
+    border-top: solid black .5px;
 }
 
 footer ul li {
@@ -238,7 +237,7 @@ footer ul li a {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    background: white;
+    
     
 }
 
