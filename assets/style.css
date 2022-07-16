@@ -43,6 +43,7 @@ main {
     padding-top: 10px;
     position: relative;
     margin: auto;
+    
 }
 
 /* Hide the images by default*/
@@ -113,6 +114,12 @@ main {
     background-color: #717171;
 }
 
+.slide-color {
+    border: solid cornflowerblue 22px;
+    box-shadow:   inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
 /*Fading animation*/
 .fade {
     animation-name: fade;
@@ -204,13 +211,18 @@ main {
     0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 #text-wrapper {
-    border: 20px solid gray;
-    border-radius: 5%;
+    border: solid cornflowerblue 22px;
+    box-shadow:   inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    background-color: white;
 }
 
 #suz {
-    border:20px solid gray;
-    border-radius: 10%;
+    border: solid cornflowerblue 22px;
+    box-shadow:   inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 .quote {
     font-style: italic;
@@ -218,6 +230,7 @@ main {
     text-align:left;
     padding-left: 1px;
     padding-right: 2px;
+    
 }
 
 #author {
