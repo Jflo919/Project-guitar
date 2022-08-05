@@ -216,6 +216,23 @@ main {
     0 0  0 2px rgb(255,255,255),
     0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
+
+#testimonials {
+    
+    padding: 50px 0 50px 0;
+    height: 500px;
+    max-width: 100vmax;
+}
+
+#testimonials h2 {
+    padding: 50px 0 50px 0;
+}
+
+#testimonials p {
+    font-size: 20px;
+    
+}
+
 #text-wrapper {
     border: solid cornflowerblue 22px;
     box-shadow:   inset 0 -3em 3em rgba(0,0,0,0.1),
