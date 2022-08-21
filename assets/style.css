@@ -234,7 +234,7 @@ main {
 }
 
 #text-wrapper {
-    border: solid cornflowerblue 22px;
+    
     box-shadow:   inset 0 -3em 3em rgba(0,0,0,0.1),
     0 0  0 2px rgb(255,255,255),
     0.3em 0.3em 1em rgba(0,0,0,0.3);
@@ -309,3 +309,32 @@ footer ul li a:hover {
 }
 
 /*Media queries for smaller screens go below*/
+
+/* Tablets and smaller */
+
+@media screen and (max-width: 820px) {
+    
+    body {
+        max-width: 100vmax;
+    }
+    .slideshow-container {
+        max-width: 100vmax;
+    }
+    .slide-color{
+        max-width: 100vmax;
+    }
+    .slide-text {
+        max-width: 100vmax;
+    }
+    .grid-wrapper {
+        flex-direction:column;
+    }
+    #jumbo {
+        flex-direction: column;
+    }
+    #contact {
+        max-width: 100vmax;
+        flex-direction: column;
+        align-content: center;
+    }
+}
